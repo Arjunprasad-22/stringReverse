@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a string: ");
+            Console.WriteLine("enter a string: ");
             string str = Console.ReadLine();
             char[] charArray = str.ToCharArray();
             Array.Reverse(charArray);
